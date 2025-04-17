@@ -1,0 +1,13 @@
+spring:
+  application:
+    name:animal-chess
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/animal-chess
+    dirver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1234
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
